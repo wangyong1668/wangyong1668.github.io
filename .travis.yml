@@ -5,6 +5,11 @@ node_js: stable
 install:
   - npm install
 
+
+before_script:
+ # - npm install -g gulp
+  - chmod -R 777 ./node_modules
+
 script:
   - hexo g
 
@@ -24,8 +29,3 @@ branches:
 env:
   global:
     - GH_REF: github.com/wangyong1668/wangyong1668.github.io.git
-
-
-
-
-

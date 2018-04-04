@@ -14,8 +14,10 @@
     {% endif %}
 
     <div class="custom-logo-site-title">
-      <a style="outline: none; text-decoration: none; background-color: transparent;" href="{{ config.root }}" title="">
-          <img style="width: 62px; height: 62px; border-radius: 50%;" src="/images/avatar.png" alt="logo头像">
+      <a href="{{ config.root }}" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">{{ config.title }}</span>
+        <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       {% if theme.seo %}

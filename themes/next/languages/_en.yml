@@ -1,91 +1,107 @@
----
 title:
-  archive: 归档
-  category: 分类
-  tag: 标签
-  schedule: 日程表
-author: 博主
+  archive: Archive
+  category: Category
+  tag: Tag
+  schedule: Schedule
+
+author: Author
+
 menu:
-  home: 首页
-  archives: 归档
-  categories: 分类
-  tags: 标签
-  about: 关于
-  search: 搜索
-  schedule: 日程表
-  sitemap: 站点地图
-  commonweal: 公益 404
+  home: Home
+  archives: Archives
+  categories: Categories
+  tags: Tags
+  about: About
+  search: Search
+  schedule: Schedule
+  sitemap: Sitemap
+  commonweal: Commonweal 404
+
 sidebar:
-  overview: 站点概览
-  toc: 文章目录
+  overview: Overview
+  toc: Table of Contents
+
 post:
-  created: 创建于
-  modified: 更新于
-  sticky: 置顶
-  posted: 发表于
-  in: 分类于
+  created: Post created
+  modified: Post modified
+  sticky: Sticky
+  posted: Posted on
+  in: In
   more: more
-  read_more: 阅读全文
-  untitled: 未命名
-  toc_empty: 此文章未包含目录
-  views: 阅读次数
-  symbols_count: 字数统计
-  symbols_time: 阅读时长
-  total_symbols: 站点总字数
-  total_time: 站点总阅读时长
-  related_posts: 相关文章
+  read_more: Read more
+  untitled: Untitled
+  toc_empty: This post does not have a Table of Contents
+  views: Views
+  symbols_count: Symbols count in article
+  symbols_time: Reading time
+  total_symbols: Symbols count total
+  total_time: Reading time total
+  related_posts: Related Posts
   copyright:
-    author: 本文作者
-    link: 本文链接
-    license_title: 版权声明
-    license_content: "本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"
+    author: Post author
+    link: Post link
+    license_title: Copyright Notice
+    license_content: "All articles in this blog are licensed under %s unless stating additionally."
+
 page:
-  totally: 共有
-  tags: 标签
+  totally: Totally
+  tags: tags
+
 footer:
-  powered: "由 %s 强力驱动"
-  theme: 主题
-  total_views: 总访问量
-  total_visitors: 总访客量
+  powered: "Powered by %s"
+  theme: Theme
+  total_views: Total Views
+  total_visitors: Total Visitors
+
 counter:
   tag_cloud:
-    zero: 暂无标签
-    one: 目前共计 1 个标签
-    other: "目前共计 %d 个标签"
+    zero: No tags
+    one: 1 tag in total
+    other: "%d tags in total"
+
   categories:
-    zero: 暂无分类
-    one: 目前共计 1 个分类
-    other: "目前共计 %d 个分类"
+    zero: No categories
+    one: 1 category in total
+    other: "%d categories in total"
+
   archive_posts:
-    zero: 暂无日志。
-    one: 目前共计 1 篇日志。
-    other: "目前共计 %d 篇日志。"
+    zero: No posts.
+    one: 1 post.
+    other: "%d posts in total."
+
 state:
-  posts: 日志
-  pages: 页面
-  tags: 标签
-  categories: 分类
+  posts: posts
+  pages: pages
+  tags: tags
+  categories: categories
+
 search:
-  placeholder: 搜索...
+  placeholder: Searching...
+
 cheers:
-  um: 嗯..
+  um: Um..
   ok: OK
-  nice: 不错
-  good: 很好
-  great: 非常好
-  excellent: 太棒了
-keep_on: 继续努力。
+  nice: Nice
+  good: Good
+  great: Great
+  excellent: Excellent
+
+keep_on: Keep on posting.
+
 symbol:
-  comma: "， "
-  period: "。 "
-  colon: "："
+  comma: ", "
+  period: ". "
+  colon: ":"
+
 reward:
-  donate: 打赏
-  wechatpay: 微信支付
-  alipay: 支付宝
-  bitcoin: 比特币
-gitmentbutton: 显示 Gitment 评论
+  donate: Donate
+  wechatpay: WeChat Pay
+  alipay: Alipay
+  bitcoin: Bitcoin
+
+gitmentbutton: Show comments from Gitment
+
 accessibility:
-  nav_toggle: 切换导航栏
-  prev_page: 上一页
-  next_page: 下一页
+  nav_toggle: Toggle navigation bar
+  prev_page: Previous page
+  next_page: Next page
