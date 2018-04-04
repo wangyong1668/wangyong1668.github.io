@@ -1,0 +1,31 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "dkvirus"
+  - git config user.email "3548310748@qq.com"
+  - git add .
+  - git commit -m "docs:update articles"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - develop
+env:
+  global:
+    - GH_REF: github.com/dkvirus/dkvirus.github.io.git
+
+
+
+
+
