@@ -12,10 +12,10 @@ after_script:
   - cd ./public
   - git init
   - git config user.name "wangyong1668"
-  - git config user.email "1178166735@qq.com"
+  - git config user.email "3548310748@qq.com"
   - git add .
   - git commit -m "docs:update articles"
-  - git push --force --quiet "https://${wangyong}@${GH_REF}" master:master
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # E: Build LifeCycle
 
 branches:
